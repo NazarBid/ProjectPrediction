@@ -38,9 +38,3 @@ python app.py
 ```
 
 The site will be accessible at http://127.0.0.1:5000.
-
-### 7. Verify the setup
-- Open `http://localhost:8000` to ensure the backend is running.
-- Open `http://localhost:5173` to ensure the frontend is running.
-
-The frontend should now be connected to the backend, and you can interact with the app to make insurance price predictions.
