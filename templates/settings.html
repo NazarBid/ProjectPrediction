@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <div class="header">
+        <div></div>
+        <div id="header-text" ></div>
+        <div class="header-settings">
+            <a href="/">
+                <ion-icon name="home"></ion-icon>
+            </a>
+        </div>
+    </div>
+    <h1 data-key="settingsTitle">Site Settings</h1>
+    <form id="settings-form">
+        <label for="font-size" data-key="fontSizeLabel">Font Size:</label>
+        <select id="font-size">
+            <option value="small" data-key="fontSmall">Small</option>
+            <option value="medium" data-key="fontMedium" selected>Medium</option>
+            <option value="large" data-key="fontLarge">Large</option>
+        </select><br><br>
+
+        <label for="language" data-key="languageLabel">Language:</label>
+        <select id="language">
+            <option value="en" data-key="langEnglish">English</option>
+            <option value="uk" data-key="langUkrainian">Українська</option>
+        </select><br><br>
+
+        <label for="theme" data-key="themeLabel">Theme:</label>
+        <select id="theme">
+            <option value="light" data-key="themeLight" selected>Light</option>
+            <option value="dark" data-key="themeDark">Dark</option>
+        </select><br><br>
+
+        <label for="country" data-key="countryLabel">Country:</label>
+        <select id="country">
+            <option value="USA" data-key="countryUSA" selected>USA</option>
+            <option value="India" data-key="countryIndia">India</option>
+        </select><br><br>
+    </form>
+    <script src="static/js/settings.js"></script>
+</body>
+</html>

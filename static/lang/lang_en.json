@@ -1,0 +1,53 @@
+{
+  "headerTitle": "Medical Insurance Cost Prediction",
+  "formTitle": "Enter your details to predict insurance cost",
+  "ageLabel": "Age:",
+  "labelSex1": "Male",
+  "labelSex2": "Female",
+  "sexLabel": "Sex:",
+  "weightLabel": "Weight:",
+  "heightLabel": "Height:",
+  "childrenLabel": "Number of Children:",
+  "smokerLabel": "Are you a Smoker:",
+  "regionLabel": "Region of living:",
+  "labelRegion1": "Southwest",
+  "labelRegion2": "Southeast",
+  "labelRegion3": "Northwest",
+  "labelRegion4": "Northeast",
+
+  "DiabetesIndiaLabel": "Do you have any type of Diabetes:",
+  "BloodPressureIndiaLabel": "Blood pressure issues:",
+  "AnyTransplantsIndiaLabel": "Do you have transplants:",
+  "AnyChronicDiseasesIndiaLabel": "Do you have Chronic Diseases:",
+  "KnownAllergiesIndiaLabel": "Do you have Allergies:",
+  "HistoryOfCancerInFamilyIndiaLabel": "Is there history of Cancer in your family:",
+  "NumberOfMajorSurgeriesIndiaLabel": "Number of major Surgeries:",
+
+  "labelYes": "Yes",
+  "labelNo": "No",
+  "submitButton": "Predict",
+  "predictionText": "Predicted insurance cost:",
+
+
+
+  "settingsHeader": "Settings",
+  "settingsTitle": "Site Settings",
+  "fontSizeLabel": "Font Size:",
+  "fontSmall": "Small",
+  "fontMedium": "Medium",
+  "fontLarge": "Large",
+  "languageLabel": "Language:",
+  "langEnglish": "English",
+  "langUkrainian": "Ukrainian",
+  "themeLabel": "Theme:",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "countryLabel": "Country:",
+  "countryUSA": "USA",
+  "countryIndia": "India",
+  "saveButton": "Save",
+
+
+  "modalInformation": "Information",
+  "modalInformationText": "If you have unique medical conditions, this may affect the price of your insurance. This site does not provide the exact cost of your insurance policy, but only an estimate based on publicly available data. Your data is not stored."
+}

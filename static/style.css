@@ -1,0 +1,191 @@
+/* Загальні стилі для сторінки FF8849
+color: #0077b6*/
+:root {
+    --font-multiplier: 1.5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Теми */
+body.light {
+    background-color: #ffffff;
+    color: #0077b6;
+}
+
+body.dark {
+    background-color: #000000;
+    color: #FF8849;
+}
+
+/* Стиль заголовка */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: calc(20px * var(--font-multiplier));
+}
+
+/* Стиль форми */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body.light form {
+    background-color: #dedede;
+}
+body.dark form {
+    background-color: #131313;
+}
+
+/* Стиль для полів вводу */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: calc(16px * var(--font-multiplier));
+}
+option {
+    font-size: calc(12px * var(--font-multiplier));
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Стиль кнопки */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077b6;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: calc(16px * var(--font-multiplier));
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+/* Стилі для шапки */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+}
+body.light .header {
+    background-color: #ffffff;
+    color: #000000;
+}
+body.dark .header {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Стиль для іконки інформації */
+.header-icon {
+    flex: 0 0 auto;
+    font-size: 40px;
+    cursor: pointer;
+    color: inherit;
+    margin-right: 10px;
+}
+body.light .header ion-icon {
+    color: #0077b6;
+}
+body.dark .header ion-icon {
+    color: #FF8849;
+}
+
+/* Стиль для тексту заголовка */
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: calc(20px * var(--font-multiplier));
+    font-weight: bold;
+}
+body.light .header-title {
+    color: #0077b6;
+}
+body.dark .header-title {
+    color: #FF8849;
+}
+
+.header-settings {
+    flex: 0 0 auto;
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer;
+    color: inherit;
+    margin-right: 10px;
+}
+
+
+/* Стилі для модального вікна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    font-size: calc(16px * var(--font-multiplier));
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.light .modal-content {
+    background-color: #fefefe;
+}
+
+body.dark .modal-content {
+    background-color: #565656;
+}
+
+body.light .close {
+    background-color: #fefefe;
+}
+
+body.dark .close {
+    background-color: #565656;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
